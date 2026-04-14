@@ -16,7 +16,7 @@ The resulting model is also taught to capture the empirically-evidenced volatili
 
 The following ML models are considered and estimated: OLS, Ridge with polynomial expansion, Random Forest, and LightGBM. The final model was tuned with Optuna (TPE sampler). 
 
-Results were validated with time-aware GroupKFold CV, bootstrap confidence intervals, and year-by-year stability analysis. The performance result achieved $R_2$ > 0.96 on a chronological test set.
+Results were validated with time-aware GroupKFold CV, bootstrap confidence intervals, and year-by-year stability analysis. The performance result achieved $R_2$ > 0.97 on a chronological test set.
 
 **Dataset:**
 

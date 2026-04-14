@@ -25,5 +25,8 @@ Results were validated with time-aware GroupKFold CV, bootstrap confidence inter
 About 9.5M observations. 10 raw columns; more features (e.g. Greeks) will be computed below.  
 *Source: https://www.kaggle.com/datasets/dudesurfin/spy-options-eod-volatility-surface-2010-2023*
 
+Implemented in the project via **kagglehub** library:  
+path = kagglehub.dataset_download("dudesurfin/spy-options-eod-volatility-surface-2010-2023")
+
 **Google Colab**: 
 *https://colab.research.google.com/github/stassisss/Volatility_surface_predict_ML/blob/main/ML_implied_volatility_predict.ipynb*
